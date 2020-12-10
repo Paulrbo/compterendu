@@ -1,0 +1,298 @@
+body{
+    background-color: rgb(43, 43, 43);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.cardpoll {
+    border-radius: 16px;
+    margin: 0 auto;
+    width: 300px;
+    max-width: 100%;
+    min-height: 300px;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-image: url(https://nlmt.fr/wp-content/uploads/2016/11/sondage.png);
+    background-size: cover;
+  }
+
+  .infopoll {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    transform: translateY(100%)
+      translateY(-88px)
+      translateZ(0);
+    transition: transform 0.3s ease-out;
+  }
+
+  .infopoll:before {
+    z-index: -1;
+    display: block; position: absolute;
+    content: ' ';
+    width: 100%; height: 100%;
+    overflow: hidden;
+    background-image: url(https://nlmt.fr/wp-content/uploads/2016/11/sondage.png);
+    filter: blur(10px);
+    background-size: cover;
+    opacity: 0.25;
+    transform: translateY(-100%)
+      translateY(88px)
+      translateZ(0);
+    transition: transform 0.3s ease-out;
+  }
+
+  .titlepoll {
+    margin: 0;
+    padding: 24px;
+    font-size: 40px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  
+  .descriptionpoll {
+    margin: 0;
+    padding: 0 24px 24px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: rgb(43, 43, 43);
+  }
+
+  .cardpoll:hover .infopoll,
+.cardpoll:hover .infopoll:before {
+  transform: translateY(0) translateZ(0);
+}
+
+
+.cardcompost {
+    border-radius: 16px;
+    margin: 0 auto;
+    width: 300px;
+    max-width: 100%;
+    min-height: 300px;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-image: url(https://www.lamontagne.fr/photoSRC/VVNUJ1paUTgIBhVOCRAHHQ4zRSkXaldfVR5dW1sXVA49/composte-convention-ophis-et-valtom_5020776.jpeg);
+    background-size: cover;
+  }
+
+  .infocompost {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    transform: translateY(100%)
+      translateY(-88px)
+      translateZ(0);
+    transition: transform 0.3s ease-out;
+  }
+
+  .infocompost:before {
+    z-index: -1;
+    display: block; position: absolute;
+    content: ' ';
+    width: 100%; height: 100%;
+    overflow: hidden;
+    background-image: url(https://www.lamontagne.fr/photoSRC/VVNUJ1paUTgIBhVOCRAHHQ4zRSkXaldfVR5dW1sXVA49/composte-convention-ophis-et-valtom_5020776.jpeg);
+    filter: blur(10px);
+    background-size: cover;
+    opacity: 0.25;
+    transform: translateY(-100%)
+      translateY(88px)
+      translateZ(0);
+    transition: transform 0.3s ease-out;
+  }
+
+  .titlecompost {
+    margin: 0;
+    padding: 24px;
+    font-size: 25px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  
+  .descriptioncompost {
+    margin: 0;
+    padding: 0 24px 24px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: rgb(43, 43, 43);
+  }
+
+  .cardcompost:hover .infocompost,
+.cardcompost:hover .infocompost:before {
+  transform: translateY(0) translateZ(0);
+}
+
+.cardinside {
+    border-radius: 16px;
+    margin: 0 auto;
+    width: 300px;
+    max-width: 100%;
+    min-height: 300px;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-image: url(https://tricountyrecycle.com/wp-content/uploads/2018/05/tricounty-recycle-healthy-home.jpg);
+    background-size: cover;
+  }
+
+  .infoinside {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    transform: translateY(100%)
+      translateY(-88px)
+      translateZ(0);
+    transition: transform 0.3s ease-out;
+  }
+
+  .infoinside:before {
+    z-index: -1;
+    display: block; position: absolute;
+    content: ' ';
+    width: 100%; height: 100%;
+    overflow: hidden;
+    background-image: url(https://tricountyrecycle.com/wp-content/uploads/2018/05/tricounty-recycle-healthy-home.jpg);
+    filter: blur(10px);
+    background-size: cover;
+    opacity: 0.25;
+    transform: translateY(-100%)
+      translateY(88px)
+      translateZ(0);
+    transition: transform 0.3s ease-out;
+  }
+
+  .titleinside {
+    margin: 0;
+    padding: 24px;
+    font-size: 25px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  
+  .descriptioninside {
+    margin: 0;
+    padding: 0 24px 24px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(43, 43, 43);
+  }
+
+  .cardinside:hover .infoinside,
+.cardinside:hover .infoinside:before {
+  transform: translateY(0) translateZ(0);
+}
+
+.cardpovera {
+    border-radius: 16px;
+    margin: 0 auto;
+    width: 300px;
+    max-width: 100%;
+    min-height: 300px;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-image: url(https://static.wixstatic.com/media/afbf09_3d3b800560744e08bc237e4d6c53c365~mv2.jpg/v1/fill/w_588,h_784,al_c,q_85,usm_0.66_1.00_0.01/VisuelProjetSiteweb_Avril2020.webp);
+    background-size: cover;
+  }
+
+  .infopovera {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    transform: translateY(100%)
+      translateY(-88px)
+      translateZ(0);
+    transition: transform 0.3s ease-out;
+  }
+
+  .infopovera:before {
+    z-index: -1;
+    display: block; position: absolute;
+    content: ' ';
+    width: 100%; height: 100%;
+    overflow: hidden;
+    background-image: url(https://static.wixstatic.com/media/afbf09_3d3b800560744e08bc237e4d6c53c365~mv2.jpg/v1/fill/w_588,h_784,al_c,q_85,usm_0.66_1.00_0.01/VisuelProjetSiteweb_Avril2020.webp);
+    filter: blur(10px);
+    background-size: cover;
+    opacity: 0.25;
+    transform: translateY(-100%)
+      translateY(88px)
+      translateZ(0);
+    transition: transform 0.3s ease-out;
+  }
+
+  .titlepovera {
+    margin: 0;
+    padding: 24px;
+    font-size: 35px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  
+  .descriptionpovera {
+    margin: 0;
+    padding: 0 24px 24px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(43, 43, 43);
+  }
+
+  .cardpovera:hover .infopovera,
+.cardpovera:hover .infopovera:before {
+  transform: translateY(0) translateZ(0);
+}
+
+.touut{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+/*******************************************************************/
+
+.btn {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+
+  .btn .arrow {
+    margin-right: 1em;
+    height: 0.1em;
+    width: 1.5em;
+    position: relative;
+    background: #ffffff;
+    transition: all 0.2s;
+  }
+
+  .btn .arrow::before,
+.btn .arrow::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #ffffff;
+  height: 0.1em;
+  width: 0.6em;
+}
+
+  .btn .arrow::before {
+    transform: rotate(45deg);
+    transform-origin: left bottom;
+  }
+  
+  .btn .arrow::after {
+    transform: rotate(-45deg);
+    transform-origin: left top;
+  }
+
+  .btn:hover .arrow {
+    width: 5em;
+  }

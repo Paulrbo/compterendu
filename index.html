@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JuniaL</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="normalize.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+    <nav id="isen">
+        <div class="backdropisen"></div>
+        <ul>
+          <li><a href="annex/isen/html/newTech.html">Nouvelles technologies</a></li>
+          <li><a href="annex/isen/html/musique.html">Musique</a></li>
+          <li><a href="annex/isen/html/sport.html">Sport</a></li>
+          <!--<li><a href="annex/html/socialNetwork.html">Réseaux sociaux</li>-->
+          <li><a href="annex/isen/html/fakeNews.html">Fakes news</a></li>
+        </ul>
+      </nav>
+
+     <nav id="hei">
+        <div class="backdrophei"></div>
+        <ul>
+          <li><a href="annex/hei/html/sciences.html">Sciences</a></li>
+          <li><a href="annex/hei/html/goodNews.html">Good news</a></li>
+          <li><a href="annex/hei/html/techshop.html">Techshop</a></li>
+          <li><a href="annex/hei/html/micro.html">Micro-trottoir</a></li>
+        </ul>
+      </nav>
+
+      <nav id="isa">
+        <div class="backdropisa"></div>
+        <ul>
+          <li><a href="annex/isa/html/portraits.html">Portrait des anciens</a></li>
+          <li><a href="annex/isa/html/ecolo.html">Trucs et astuces, recyclage, écologie</a></li>
+          <li><a href="annex/isa/html/art.html">Rubrique brève sur l’art</a></li>
+        </ul>
+      </nav>
+
+      
+
+
+      
+
+     
+
+      
+      <div id="bouton">
+        <a id="butisen" class="neonize" href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            ISEN
+          </a>
+          <a id="buthei" class="neonize" href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            HEI
+          </a>
+          <a id="butisa" class="neonize" href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            ISA
+          </a>
+    </div>
+
+      <script>
+        const butisen = document.querySelector('#butisen');
+        const buthei = document.querySelector('#buthei');
+        const butisa = document.querySelector('#butisa');
+    const navisen = document.querySelector('#isen');
+    const navhei = document.querySelector('#hei');
+    const navisa = document.querySelector('#isa');
+    const backdropisen = document.querySelector('.backdropisen');
+    const backdrophei = document.querySelector('.backdrophei');
+    const backdropisa = document.querySelector('.backdropisa');
+    
+    
+    butisen.addEventListener('click', () => {
+      navisen.classList.add('open');
+    });
+
+    buthei.addEventListener('click', () => {
+      navhei.classList.add('open');
+    });
+
+    butisa.addEventListener('click', () => {
+      navisa.classList.add('open');
+    });
+    
+    backdropisen.addEventListener('click', () => {
+      navisen.classList.remove('open');
+    });
+
+    backdrophei.addEventListener('click', () => {
+      navhei.classList.remove('open');
+    });
+
+    backdropisa.addEventListener('click', () => {
+      navisa.classList.remove('open');
+    });
+    
+    </script>
+
+</body>
+</html>
