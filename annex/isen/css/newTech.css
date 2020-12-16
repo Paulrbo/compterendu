@@ -1,177 +1,242 @@
 body{
-    background-color: rgb(43, 43, 43);
-    font-family: 'Montserrat', sans-serif;
-    color: white;
+  background-color: rgb(43, 43, 43);
+  font-family: 'Montserrat', sans-serif;
+  color: white;
 }
 
-.carditer {
-    border-radius: 16px;
-    margin: 0 auto;
-    width: 500px;
-    max-width: 100%;
-    min-height: 500px;
-    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    background-image: url(https://www.iter.org/img/resize-900-90/www/content/com/Lists/Mag%20Stories/Attachments/65/tokamak_poster.jpg);
-    background-size: cover;
-  }
-
-  .infoiter {
-    position: relative;
-    width: 100%;
-    height: 500px;
-    background-color: #fff;
-    transform: translateY(100%)
-      translateY(-88px)
-      translateZ(0);
-    transition: transform 0.3s ease-out;
-  }
-
-  .infoiter:before {
-    z-index: -1;
-    display: block; position: absolute;
-    content: ' ';
-    width: 100%; height: 100%;
-    overflow: hidden;
-    background-image: url(https://www.iter.org/img/resize-900-90/www/content/com/Lists/Mag%20Stories/Attachments/65/tokamak_poster.jpg);
-    filter: blur(10px);
-    background-size: cover;
-    opacity: 0.25;
-    transform: translateY(-100%)
-      translateY(88px)
-      translateZ(0);
-    transition: transform 0.3s ease-out;
-  }
-
-  .titleiter {
-    margin: 0;
-    padding: 24px;
-    font-size: 40px;
-    line-height: 1;
-    color: rgba(0, 0, 0, 0.87);
-  }
-  
-  .descriptioniter {
-    margin: 0;
-    padding: 0 24px 24px;
-    font-size: 18px;
-    line-height: 1.5;
-    color: rgb(43, 43, 43);
-  }
-
-  .carditer:hover .infoiter,
-.carditer:hover .infoiter:before {
-  transform: translateY(0) translateZ(0);
+.cardglob {
+  border-radius: 16px;
+  margin: 0 auto;
+  width: 400px;
+  max-width: 100%;
+  min-height: 400px;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background-image: url(https://www.iter.org/img/resize-900-90/www/content/com/Lists/Mag%20Stories/Attachments/65/tokamak_poster.jpg);
+  background-size: cover;
 }
 
-.cardsupra {
-    border-radius: 16px;
-    margin: 0 auto;
-    width: 500px;
-    max-width: 100%;
-    min-height: 500px;
-    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    background-image: url(https://file1.science-et-vie.com/var/scienceetvie/storage/images/8/1/81733/decouverte-100-ans-revolution-supraconductivite.jpg?alias=original);
-    background-size: cover;
-  }
+.infoglob {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: #fff;
+  transform: translateY(100%)
+    translateY(-88px)
+    translateZ(0);
+  transition: transform 0.3s ease-out;
+}
 
-  .infosupra {
-    position: relative;
-    width: 100%;
-    height: 500px;
-    background-color: #fff;
-    transform: translateY(100%)
-      translateY(-88px)
-      translateZ(0);
-    transition: transform 0.3s ease-out;
-  }
+.infoglob:before {
+  z-index: -1;
+  display: block; position: absolute;
+  content: ' ';
+  width: 100%; height: 100%;
+  overflow: hidden;
+  background-image: url(https://www.iter.org/img/resize-900-90/www/content/com/Lists/Mag%20Stories/Attachments/65/tokamak_poster.jpg);
+  filter: blur(10px);
+  background-size: cover;
+  opacity: 0.25;
+  transform: translateY(-100%)
+    translateY(88px)
+    translateZ(0);
+  transition: transform 0.3s ease-out;
+}
 
-  .infosupra:before {
-    z-index: -1;
-    display: block; position: absolute;
-    content: ' ';
-    width: 100%; height: 100%;
-    overflow: hidden;
-    background-image: url(https://file1.science-et-vie.com/var/scienceetvie/storage/images/8/1/81733/decouverte-100-ans-revolution-supraconductivite.jpg?alias=original);
-    filter: blur(10px);
-    background-size: cover;
-    opacity: 0.25;
-    transform: translateY(-100%)
-      translateY(88px)
-      translateZ(0);
-    transition: transform 0.3s ease-out;
-  }
+.titleglob {
+  margin: 0;
+  padding: 24px;
+  font-size: 40px;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.87);
+}
 
-  .titlesupra {
-    margin: 0;
-    padding: 24px;
-    font-size: 40px;
-    line-height: 1;
-    color: rgba(0, 0, 0, 0.87);
-  }
-  
-  .descriptionsupra {
-    margin: 0;
-    padding: 0 24px 24px;
-    font-size: 18px;
-    line-height: 1.5;
-    color: rgb(43, 43, 43);
-  }
+.descriptionglob {
+  margin: 0;
+  padding: 0 24px 24px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: rgb(43, 43, 43);
+}
 
-  .cardsupra:hover .infosupra,
-.cardsupra:hover .infosupra:before {
-  transform: translateY(0) translateZ(0);
+.cardglob:hover .infoglob,
+.cardglob:hover .infoglob:before {
+transform: translateY(0) translateZ(0);
+}
+
+.cardloc {
+  border-radius: 16px;
+  margin: 0 auto;
+  width: 400px;
+  max-width: 100%;
+  min-height: 400px;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background-image: url(https://file1.science-et-vie.com/var/scienceetvie/storage/images/8/1/81733/decouverte-100-ans-revolution-supraconductivite.jpg?alias=original);
+  background-size: cover;
+}
+
+.infoloc {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: #fff;
+  transform: translateY(100%)
+    translateY(-88px)
+    translateZ(0);
+  transition: transform 0.3s ease-out;
+}
+
+.infoloc:before {
+  z-index: -1;
+  display: block; position: absolute;
+  content: ' ';
+  width: 100%; height: 100%;
+  overflow: hidden;
+  background-image: url(https://file1.science-et-vie.com/var/scienceetvie/storage/images/8/1/81733/decouverte-100-ans-revolution-supraconductivite.jpg?alias=original);
+  filter: blur(10px);
+  background-size: cover;
+  opacity: 0.25;
+  transform: translateY(-100%)
+    translateY(88px)
+    translateZ(0);
+  transition: transform 0.3s ease-out;
+}
+
+.titleloc {
+  margin: 0;
+  padding: 24px;
+  font-size: 40px;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.descriptionloc {
+  margin: 0;
+  padding: 0 24px 24px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: rgb(43, 43, 43);
+}
+
+.cardloc:hover .infoloc,
+.cardloc:hover .infoloc:before {
+transform: translateY(0) translateZ(0);
+}
+
+.cardperso {
+  border-radius: 16px;
+  margin: 0 auto;
+  width: 400px;
+  max-width: 100%;
+  min-height: 400px;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background-image: url(https://spaceexplored.com/wp-content/uploads/sites/10/2020/10/EkYf9_VXYAIvaad.jpeg?quality=82&strip=all&w=1000);
+  background-size: cover;
+}
+
+.infoperso {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: #fff;
+  transform: translateY(100%)
+    translateY(-88px)
+    translateZ(0);
+  transition: transform 0.3s ease-out;
+}
+
+.infoperso:before {
+  z-index: -1;
+  display: block; position: absolute;
+  content: ' ';
+  width: 100%; height: 100%;
+  overflow: hidden;
+  background-image: url(https://spaceexplored.com/wp-content/uploads/sites/10/2020/10/EkYf9_VXYAIvaad.jpeg?quality=82&strip=all&w=1000);
+  filter: blur(10px);
+  background-size: cover;
+  opacity: 0.25;
+  transform: translateY(-100%)
+    translateY(88px)
+    translateZ(0);
+  transition: transform 0.3s ease-out;
+}
+
+.titleperso {
+  margin: 0;
+  padding: 24px;
+  font-size: 35px;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.descriptionperso {
+  margin: 0;
+  padding: 0 24px 24px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: rgb(43, 43, 43);
+}
+
+.cardperso:hover .infoperso,
+.cardperso:hover .infoperso:before {
+transform: translateY(0) translateZ(0);
 }
 
 .touut{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+h1{
+  text-align: center;
+  margin-top: 5%;
 }
 
 /*******************************************************************/
 
 .btn {
-    text-decoration: none;
-    font-size: 1.4rem;
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    margin-top: 1%;
-    margin-left: 1%;
-  }
-
-  .btn .arrow {
-    margin-right: 1em;
-    height: 0.1em;
-    width: 1.5em;
-    position: relative;
-    background: #ffffff;
-    transition: all 0.2s;
-  }
-
-  .btn .arrow::before,
-.btn .arrow::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  background: #ffffff;
-  height: 0.1em;
-  width: 0.6em;
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  margin-top: 1%;
+  margin-left: 1%;
 }
 
-  .btn .arrow::before {
-    transform: rotate(45deg);
-    transform-origin: left bottom;
-  }
-  
-  .btn .arrow::after {
-    transform: rotate(-45deg);
-    transform-origin: left top;
-  }
+.btn .arrow {
+  margin-right: 1em;
+  height: 0.1em;
+  width: 1.5em;
+  position: relative;
+  background: #ffffff;
+  transition: all 0.2s;
+}
 
-  .btn:hover .arrow {
-    width: 5em;
-  }
+.btn .arrow::before,
+.btn .arrow::after {
+content: "";
+position: absolute;
+left: 0;
+top: 0;
+background: #ffffff;
+height: 0.1em;
+width: 0.6em;
+}
+
+.btn .arrow::before {
+  transform: rotate(45deg);
+  transform-origin: left bottom;
+}
+
+.btn .arrow::after {
+  transform: rotate(-45deg);
+  transform-origin: left top;
+}
+
+.btn:hover .arrow {
+  width: 5em;
+}
