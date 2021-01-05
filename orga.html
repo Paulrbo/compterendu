@@ -4,9 +4,29 @@
     <title>Organigramme</title>
     <link href="normalize.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" href="journal.png" />
+    <style>
+        body {
+            height: 100vh;
+        }
+        img {
+            max-height: 100%;
+        }
+        .bg {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #431c5d;
+            background-image: url('./organigramme.jpg');
+            background-size: auto 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
 </head>
 <body>
     <!--<iframe src="organigramme.pdf" width="100%" height="900px"></iframe>-->
-    <img src="organigramme.jpg" width="100%" height="100%">
+    <div class="bg"  >
 </body>
 </html>
