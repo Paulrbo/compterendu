@@ -166,7 +166,7 @@ transform: translateY(0) translateZ(0);
 .titleperso {
   margin: 0;
   padding: 24px;
-  font-size: 35px;
+  font-size: 25px;
   line-height: 1;
   color: rgba(0, 0, 0, 0.87);
 }
