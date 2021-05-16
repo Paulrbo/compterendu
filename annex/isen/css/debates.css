@@ -4,7 +4,7 @@ body{
     color: white;
 }
 
-.card{
+.card1{
     border-radius: 16px;
     margin: 0 auto;
     width: 500px;
@@ -16,7 +16,7 @@ body{
     background-size: cover;
   }
 
-  .info{
+  .info1{
     position: relative;
     width: 100%;
     height: 500px;
@@ -27,7 +27,30 @@ body{
     transition: transform 0.3s ease-out;
   }
 
-  .info:before{
+.card2{
+    border-radius: 16px;
+    margin: 0 auto;
+    width: 500px;
+    max-width: 100%;
+    min-height: 500px;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-image: url(https://www.santepubliquefrance.fr/var/site/storage/images/8/4/3/5/2755348-1-fre-FR/spf_dossier_covid_header.jpg);
+    background-size: cover;
+}
+
+.info2{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    transform: translateY(100%)
+    translateY(-88px)
+    translateZ(0);
+    transition: transform 0.3s ease-out;
+}
+
+  .info1:before{
     z-index: -1;
     display: block; position: absolute;
     content: ' ';
@@ -43,12 +66,33 @@ body{
     transition: transform 0.3s ease-out;
   }
 
+.info2:before{
+    z-index: -1;
+    display: block; position: absolute;
+    content: ' ';
+    width: 100%; height: 100%;
+    overflow: hidden;
+    background-image: url(https://www.santepubliquefrance.fr/var/site/storage/images/8/4/3/5/2755348-1-fre-FR/spf_dossier_covid_header.jpg);
+    filter: blur(10px);
+    background-size: cover;
+    opacity: 0.25;
+    transform: translateY(-100%)
+    translateY(88px)
+    translateZ(0);
+    transition: transform 0.3s ease-out;
+}
+
   .title{
     margin: 0;
     padding: 24px;
     font-size: 25px;
     line-height: 1;
     color: rgba(0, 0, 0, 0.87);
+  }
+
+  .info2>.title{
+      font-size: 31px;
+      padding-top: 10px;
   }
   
   .description{
@@ -59,9 +103,14 @@ body{
     color: rgb(43, 43, 43);
   }
 
-  .card:hover .info,
-.card:hover .info:before {
+  .card1:hover .info1,
+.card1:hover .info1:before {
   transform: translateY(0) translateZ(0);
+}
+
+.card2:hover .info2,
+.card2:hover .info2:before {
+    transform: translateY(0) translateZ(0);
 }
 
 
